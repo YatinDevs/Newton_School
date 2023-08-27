@@ -1,0 +1,31 @@
+<!-- html code goes here -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+
+    </head>
+
+      <body>
+        <h1> Feedback Form </h1>
+        <form  method="POST">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required minlength="3" maxlength="50">
+          <br>
+          <label for="portfolio">Your portfolio</label>
+          <input type="url" id="portfolio" name="portfolio"required>
+           <br>
+          <label for="favColor">Your fav color</label>
+          <input type="color" id="favColor">
+          <br>
+          
+          <label for="likeness">From one to hundred choose likeness</label>
+          <input type="range" id="likeness" name="likeness" min="1" max="100">
+          <br>
+        
+          <button type="submit">Submit</button>
+
+        </form>
+      </body>
+</html>
