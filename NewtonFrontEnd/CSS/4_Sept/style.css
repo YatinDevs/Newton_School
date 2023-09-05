@@ -1,0 +1,56 @@
+*{ 
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+
+
+}
+.relative{
+    position: relative;
+    background-color: aqua;
+    border:2px solid black;
+   /* Now we can give direction  top left right bottom*/
+ /*  top:50px; from relative position will i.e from top it will move 50px down*/
+     left: 100px;
+}
+.sticky{
+    
+    position: sticky;
+    padding: 30px;
+    background-color: aqua;
+    border:2px solid black;
+    width: 100%;
+    top: 0px;
+  
+
+}
+.fixed{
+
+    position: fixed;
+    padding: 30px;
+    background-color: aqua;
+    border:2px solid black;
+    width: 100%;
+    top: 0px;
+  
+
+}
+
+.parent{
+    /* position: relative; */
+    border:2px solid black;
+    width: 400px;
+    height:400px;
+    
+}
+.absolute{
+    
+    position: absolute;
+    padding: 30px;
+    width: 200px;
+    height:200px;
+    background-color: aqua;
+    border:2px solid black;
+    top:46px;
+  
+}

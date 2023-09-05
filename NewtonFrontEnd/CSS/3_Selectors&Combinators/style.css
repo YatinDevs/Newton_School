@@ -1,0 +1,60 @@
+/* 
+  Selctors continued
+  - element selector ✅
+  - class selector - styles reusable✅
+  - id selector ✅
+  - universal selector ✅
+
+  - specificity - later
+
+  Combinators
+  - Descendant - space
+  - Child - >
+  - Adjacent sibling (sibling) - + (single element)
+  - General sibling - ~ (1 or more)
+  
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p ~ h1 {
+  background-color: yellow;
+}
+
+/* descendant combinator */
+/* #first-div > p {
+  background-color: yellow;
+} */
+
+p ~ div {
+  background-color: aqua;
+}
+
+/* p {
+  margin: 5px;
+} */
+
+/* * {
+  border: 2px solid blue;
+}
+
+p {
+  color: yellow;
+}
+
+.something {
+  background-color: aqua;
+  color: maroon;
+}
+
+#unique-element {
+  border: 1px solid maroon;
+  padding: 2px;
+  margin: 5px;
+  color: black;
+} */

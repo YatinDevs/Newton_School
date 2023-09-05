@@ -1,0 +1,45 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Outfit:wght@400;700&family=Poppins:wght@200;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+html{
+    
+    font-size: 62.5%;
+
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* CSS  Reset the Default */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* ##########################  Utility Classes ############################## */
+
+.container{
+    max-width: 1440px;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/* Element Selector*/
+h1{
+    color :blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Class Selector*/
+.main-section{
+    border: 1px solid red;
+    padding: 0 2rem;
+}
+
